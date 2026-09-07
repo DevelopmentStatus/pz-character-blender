@@ -18,7 +18,7 @@ as **Build 42** itself — ready to customize, pose and play in the viewport.
 [**How it works**](#-how-its-built) &nbsp;·&nbsp;
 [**Details**](DETAILS.md)
 
-https://github.com/user-attachments/assets/0d47af13-8fc1-4025-b171-817db07abe28
+https://github.com/user-attachments/assets/571c8abd-b7bc-4ba0-a97d-fea829f3fbaa
 
 </div>
 
