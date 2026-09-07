@@ -1,0 +1,27 @@
+# Normalise line endings so a Windows checkout and a Linux one produce the
+# same blobs. Without this, git's "LF will be replaced by CRLF" warnings turn
+# into real CRLF in the index the first time a Windows contributor commits,
+# and every later diff is the whole file.
+
+# Default: detect text, store LF in the repo, check out native.
+* text=auto
+
+# Python, docs and data are LF everywhere - Blender runs the same .py on all
+# three platforms and there is no reason for these to differ per checkout.
+*.py    text eol=lf
+*.md    text eol=lf
+*.json  text eol=lf
+*.txt   text eol=lf
+
+# cmd.exe is the one consumer that genuinely cares: a .bat with LF endings
+# can mis-parse multi-line blocks and labels. These are Windows-only files,
+# so pin them to CRLF in the working tree on every platform.
+*.bat   text eol=crlf
+*.ps1   text eol=crlf
+
+# Never touch these, whatever the content sniffing thinks. All are gitignored
+# today; the rules are here so an accidental `git add -f` cannot corrupt one.
+*.pzc   binary
+*.zip   binary
+*.png   binary
+*.blend binary

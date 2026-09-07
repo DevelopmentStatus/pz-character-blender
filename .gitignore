@@ -1,0 +1,12 @@
+# Extractor output. Regenerate with setup.bat / extract.bat - it is derived
+# from a Project Zomboid install and must not be redistributed.
+/assets/
+
+# Where setup.bat remembers the install it found. Machine-specific.
+/game_dir.txt
+
+# Built by package_addon.py.
+/pz_character_viewer.zip
+
+__pycache__/
+*.pyc
