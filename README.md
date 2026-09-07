@@ -1,6 +1,6 @@
 <div align="center">
 
-# pz-character
+# PZ Character Blender
 
 ### Build a real Project Zomboid character in Blender
 
@@ -27,9 +27,9 @@ as **Build 42** itself — ready to customize, pose and play in the viewport.
 
 <br>
 
-## 🚀 Quick start
+<div align="center">
 
-<br>
+## 🚀 Quick start
 
 ### Option A &nbsp;·&nbsp; Full setup
 
@@ -41,7 +41,9 @@ setup.bat
 
 <br>
 
-One script does all of it:
+**One script does all of it:**
+
+</div>
 
 <div align="center">
 
@@ -60,13 +62,13 @@ One script does all of it:
 
 <br>
 
+<div align="center">
+
 ### Option B &nbsp;·&nbsp; Drag a zip in
 
-<br>
-
-If `assets/characters/` has already been extracted, you don't need the setup
-script — build the add-on zip and drag it straight into a Blender window,
-where it installs itself.
+Already extracted `assets/characters/`? Skip the setup script — build the
+add-on zip and drag it straight into a Blender window, where it installs
+itself.
 
 <br>
 
@@ -78,9 +80,12 @@ package_addon.bat
 
 <br>
 
+</div>
+
 That writes `pz_character_viewer.zip` next to `setup.bat`. It isn't committed
 to the repo — it's a build artifact, and a stale one silently keeps
-reinstalling old code, so it's always built fresh.
+reinstalling old code, so it's always built fresh. Prebuilt zips are attached
+to each [**release**](../../releases).
 
 <br>
 
@@ -102,11 +107,15 @@ Blender remembers it from then on.
 
 <br>
 
+<div align="center">
+
 ### Then, in Blender
+
+</div>
 
 <br>
 
-<table>
+<table align="center">
 <tr>
 <td width="60"><h3 align="center">1</h3></td>
 <td><b>Edit → Preferences → Add-ons</b><br>Enable <b>PZ Character Viewer</b></td>
@@ -127,6 +136,8 @@ Blender remembers it from then on.
 
 <br>
 
+<div align="center">
+
 <details>
 <summary><b>Prefer to install by hand?</b></summary>
 
@@ -138,17 +149,23 @@ add-on.
 
 </details>
 
+</div>
+
 <br>
 
 ---
 
 <br>
 
+<div align="center">
+
 ## ✨ Features
+
+</div>
 
 <br>
 
-<table>
+<table align="center">
 <tr>
 <td width="50%" valign="top">
 
@@ -215,13 +232,17 @@ Two clips at once — base + overlay — with real upper/lower body bone masks.
 
 <br>
 
+<div align="center">
+
 ## 🧩 How it's built
 
+**Two halves, connected only by a folder of extracted files:**
+
+</div>
+
 <br>
 
-Two halves, connected only by a folder of extracted files:
-
-<br>
+<div align="center">
 
 ```
      your PZ install                                   Blender
@@ -234,6 +255,8 @@ Two halves, connected only by a folder of extracted files:
      reads the game            gitignored            never touches
                                                      the install
 ```
+
+</div>
 
 <br>
 
@@ -259,7 +282,11 @@ Two halves, connected only by a folder of extracted files:
 
 <br>
 
+<div align="center">
+
 ## 📋 Requirements
+
+</div>
 
 <br>
 
@@ -276,8 +303,12 @@ Two halves, connected only by a folder of extracted files:
 
 <br>
 
+<div align="center">
+
 <details>
 <summary><b>Running on Linux or macOS</b></summary>
+
+<div align="left">
 
 <br>
 
@@ -305,9 +336,13 @@ python3 package_addon.py
 
 and install it as in **Option B** above.
 
+</div>
+
 <br>
 
 </details>
+
+</div>
 
 <br>
 
@@ -315,7 +350,11 @@ and install it as in **Option B** above.
 
 <br>
 
+<div align="center">
+
 ## 🌱 Where this came from
+
+</div>
 
 <br>
 
@@ -332,7 +371,11 @@ project.
 
 <br>
 
+<div align="center">
+
 ## ⚖️ Licence
+
+</div>
 
 <br>
 
