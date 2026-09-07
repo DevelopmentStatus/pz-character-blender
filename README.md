@@ -33,6 +33,8 @@ https://github.com/user-attachments/assets/571c8abd-b7bc-4ba0-a97d-fea829f3fbaa
 
 ## 🚀 Quick start
 
+<img width="949" height="500" alt="image" src="https://github.com/user-attachments/assets/2846acea-4dab-4539-a13d-ecf566daf981" />
+
 ### Option A &nbsp;·&nbsp; Full setup
 
 <br>
